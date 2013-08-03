@@ -11,4 +11,3 @@ cd build/
 cmake -DCMAKE_BUILD_TYPE=release -DCMAKE_INSTALL_PREFIX=$IO_PREFIX ..
 make
 make install
-popd
