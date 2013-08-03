@@ -1,0 +1,6 @@
+---
+install: true
+before_script: ./install_io.sh
+script: ./travis.run.sh
+env:
+  - IO_PREFIX=/tmp/io
