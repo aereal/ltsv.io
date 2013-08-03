@@ -4,7 +4,7 @@ if [[ -n "$IO_PREFIX" ]]; then
   IO_PREFIX=/tmp/io
 fi
 
-git clone git://github.com/stevedekorte/io.git
+git clone --depth 1 git://github.com/stevedekorte/io.git
 cd io/
 mkdir -p build/
 cd build/
